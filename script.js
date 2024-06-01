@@ -19,5 +19,7 @@ Employee.prototype.jobGreet = function() {
 }
 
 // Do not change code below this line
+const person = new window.Person('Alice', 25);
 window.Person = Person;
+const employee = new window.Employee('Bob', 30, 'Manager');
 window.Employee = Employee;
